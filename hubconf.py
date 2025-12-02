@@ -1,4 +1,4 @@
-dependencies = ['torch', 'numpy', 'cv2', 'einops', 'tqdm', 'sklearn', 'matplotlib', 'pandas', 'scipy', 'omegaconf', 'tomesd']
+dependencies = ['torch', 'numpy', 'cv2', 'einops', 'tqdm', 'sklearn', 'matplotlib', 'pandas', 'scipy', 'omegaconf', 'tomesd', 'tensorboard', 'rich', 'yapf', 'addict']
 
 import torch
 import os
@@ -36,6 +36,7 @@ def download_example_images(local_folder='example_images'):
     os.makedirs(local_folder, exist_ok=True)
     print(f"Downloading example images to '{local_folder}'...")
 
+    base_url = f"https://github.com/KieDani/UpliftingTableTennis/raw/main/tutorials/example_imgs/"
     # We assume the tutorial has 35 images named 00.png to 34.png
     for i in range(35):
         filename = f"{i:02d}.png"

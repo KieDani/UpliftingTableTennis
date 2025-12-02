@@ -9,7 +9,7 @@ We will first use a single model to get initial predictions and then improve the
 First, ensure you have the required dependencies installed. You can install them via pip:
 
 ```bash
-pip install torch torchvision numpy opencv-python-headless einops tqdm matplotlib scipy scikit-learn, omegaconf, tomesd
+pip install torch torchvision numpy opencv-python-headless einops tqdm matplotlib scipy scikit-learn, omegaconf tomesd pandas tensorboard rich yapf addict
 ```
 Note: You can also use the standard `opencv-python` package.
 
