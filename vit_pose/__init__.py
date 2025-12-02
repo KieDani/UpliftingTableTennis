@@ -1,0 +1,1 @@
+from vit_pose.vit_models.model import ViTPose as ViTPoseModel

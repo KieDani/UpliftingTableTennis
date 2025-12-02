@@ -1,0 +1,159 @@
+World Table Tennis
+https://www.youtube.com/watch?v=e6jIpGHI1Eo
+FAN Zhendong / WANG Chuqin vs BOLL Timo / FRANZISKA Patrick
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=e6jIpGHI1Eo
+mv "FULL MATCH ｜ FAN Zhendong ⧸ WANG Chuqin vs BOLL Timo ⧸ FRANZISKA Patrick ｜ MD R32 ｜ #ITTFWorlds2021 [e6jIpGHI1Eo].mp4" 01_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:10:00 -i 01_tmp.mp4 -c:v h264_nvenc -c:a aac 01_cut.mp4
+
+https://www.youtube.com/watch?v=z0YsVE6fNjA
+Ma Long vs Truls Moregard
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=z0YsVE6fNjA
+mv "FULL MATCH ｜ Ma Long vs Truls Moregard ｜ MS R32 ｜ #WTTIncheon 2024 [z0YsVE6fNjA].mp4" 02_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:10:00 -i 02_tmp.mp4 -c:v h264_nvenc -c:a aac 02_cut.mp4
+
+https://www.youtube.com/watch?v=p8jOT2-k_Co
+Pistej/Kukulkova vs Coton/Lutz
+1920x1080, 30fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=p8jOT2-k_Co
+mv "Pistej⧸Kukulkova vs Coton⧸Lutz ｜ XD SF ｜ WTT Feeder Havirov 2025 [p8jOT2-k_Co].mp4" 03_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:05:00 -i 03_tmp.mp4 -c:v h264_nvenc -c:a aac 03_cut.mp4
+ffmpeg -i 03_tmp.mp4 -vf "minterpolate='mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=50'" 03.mp4
+
+
+https://www.youtube.com/watch?v=lN8uwGVbB1k&t=36s
+FAN Zhendong vs LEBRUN Alexis
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=lN8uwGVbB1k&t=36s
+mv "FULL MATCH ｜ FAN Zhendong vs LEBRUN Alexis ｜ MT F ｜ #ITTFWorlds2024 [lN8uwGVbB1k].mp4" 04_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:10:00 -i 04_tmp.mp4 -c:v h264_nvenc -c:a aac 04_cut.mp4
+
+
+
+Federation Francaise de Tennis de Table
+https://www.youtube.com/watch?v=zi8GB78upXw
+NODIN Alexia vs GUO ZHENG Nina
+1920x1080, 60fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=zi8GB78upXw
+mv "NODIN Alexia vs GUO ZHENG Nina ｜ Finale ｜ FRANCES JUNIORS 2025 [zi8GB78upXw].mp4" 05_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:04:30 -to 00:9:30 -i 05_tmp.mp4 -c:v h264_nvenc -c:a aac 05_cut.mp4
+
+https://www.youtube.com/watch?v=ZgrXQFdiyao
+Felix LEBRUN vs Thibault PORET
+1920x1080, 60fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=ZgrXQFdiyao
+mv "Felix LEBRUN vs Thibault PORET ｜ 1⧸4 ｜ FRANCE 2025 [ZgrXQFdiyao].mp4" 06_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:01:30 -to 00:11:30 -i 06_tmp.mp4 -c:v h264_nvenc -c:a aac 06_cut.mp4
+
+
+
+Bundesliga Women
+https://www.youtube.com/watch?v=Gm19EMHqoKo
+Nina Mittelham vs. Annett Kaufmann
+1920x1080, 30fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=Gm19EMHqoKo
+mv "Nina Mittelham vs. Annett Kaufmann ｜ 1. Bundesliga Damen [Gm19EMHqoKo].mp4" 07_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:30 -to 00:05:30 -i 07_tmp.mp4 -c:v h264_nvenc -c:a aac 07_cut.mp4
+
+
+
+Bundesliga Men
+https://www.youtube.com/watch?v=Zf0Mi_Qznn8
+FULDA vs. GRENZAU
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=Zf0Mi_Qznn8
+mv "FULDA vs. GRENZAU (Tischtennis Bundesliga Recap) ｜ 2025 Matchday 20 [Zf0Mi_Qznn8].mp4" 08_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:15 -to 00:02:45 -i 08_tmp.mp4 -c:v h264_nvenc -c:a aac 08_cut.mp4
+
+
+
+Olympics
+https://www.youtube.com/watch?v=F5H-Eq_Kcxw
+Rio 2016 Replays
+1920x1080, 25fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=F5H-Eq_Kcxw
+mv "Men's Singles Table Tennis Final - Full Match ｜ Rio 2016 Replays [F5H-Eq_Kcxw].mp4" 09_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:02:00 -to 00:11:02 -i 09_tmp.mp4 -c:v h264_nvenc -c:a aac 09_cut.mp4
+
+
+
+https://www.youtube.com/watch?v=heviBtSlwbE
+Chen Xingtong vs Annett Kaufmann
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=heviBtSlwbE
+mv 'FULL MATCH ｜ Chen Xingtong vs Annett Kaufmann ｜ WS R64 ｜ #ITTFWorlds2025 [heviBtSlwbE].mp4' 10_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:05:00 -i 10_tmp.mp4 -c:v h264_nvenc -c:a aac 10_cut.mp4
+
+
+
+Rocket Masters Cup
+https://www.youtube.com/watch?v=G1E8JEFSjFI
+A.Manukyan - E.Grigoryan
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=G1E8JEFSjFI
+mv "Table Tennis ｜ A.Manukyan - E.Grigoryan ｜ 09.04.2025 14_15 (CET) ｜ SP 26638193 [G1E8JEFSjFI].mp4" 11_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:55 -to 00:08:10 -i 11_tmp.mp4 -c:v h264_nvenc -c:a aac 11_cut.mp4
+
+
+
+
+
+Additional Videos -> Only to train the Detection Models
+
+https://www.youtube.com/watch?v=hBvyU6guwm8
+Felix LEBRUN vs Alexis LEBRUN
+1920x1080, 60fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=hBvyU6guwm8
+mv 'Felix LEBRUN vs Alexis LEBRUN ｜ FINALE ｜ FRANCE 2025 [hBvyU6guwm8].mp4' 101_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:55 -to 00:08:10 -i 101_tmp.mp4 -c:v h264_nvenc -c:a aac 101_cut.mp4
+
+
+https://www.youtube.com/watch?v=i7Bc782hS5c
+2. Bundesliga Damen Bayernderby TTC Langweid vs. TuS Fürstenfeldbruck
+1920x1080, 30fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=i7Bc782hS5c
+mv '2. Bundesliga Damen Bayernderby TTC Langweid vs. TuS Fürstenfeldbruck 6_3 [i7Bc782hS5c].mp4' 102_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:05:00 -i 102_tmp.mp4 -c:v h264_nvenc -c:a aac 102_cut.mp4
+
+
+https://www.youtube.com/watch?v=sVyLxXyhC18&t=51s
+"Street table tennis" in China | Chinese amateur table tennis players
+1920x1080, 60fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=sVyLxXyhC18&t=51s
+mv '＂Street table tennis＂ in China ｜ Chinese amateur table tennis players [sVyLxXyhC18].mp4' 103_tmp.mp4
+ffmpeg -hwaccel cuda -ss 00:00:00 -to 00:05:00 -i 103_tmp.mp4 -c:v h264_nvenc -c:a aac 103_cut.mp4
+
+
+
+Highlight Videos
+
+Top 10 Best Table Tennis Points
+1280x720, 25fps
+yt-dlp -f 136 https://www.youtube.com/watch?v=dokC3iGTmSw
+mv "Top 10 Best Table Tennis Points [dokC3iGTmSw].mp4" 201_cut.mp4
+
+Table tennis Top 14 Impossible Rallies
+1920x1080, 60 fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=4Ks4fJTFTXU
+mv "Table tennis Top 14 Impossible Rallies [4Ks4fJTFTXU].mp4" 202_cut.mp4
+
+Top Table Tennis Points of 2021 | Best of 2021
+1920x1080, 50fps
+yt-dlp -f 299 https://www.youtube.com/watch?v=msn0zfdEk58
+mv "Top Table Tennis Points of 2021 ｜ Best of 2021 [msn0zfdEk58].mp4" 203_cut.mp4
+
+Top 50 lustigsten Momente im Tischtennis
+1920x1080, 25fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=v4G6EZj3-f0
+mv "Top 50 Funniest moments in table tennis [v4G6EZj3-f0].mp4" 204_cut.mp4
+
+Top 50 best table tennis points of 2020 [HD]
+1920x1080, 30fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=IMuoOkm9NTg
+mv "Top 50 best table tennis points of 2020 [HD] [IMuoOkm9NTg].mp4" 205_cut.mp4
+
+Table Tennis Top 10 Impossible Shots and Rallies
+1920x1080, 25fps
+yt-dlp -f 137 https://www.youtube.com/watch?v=Zz-orE6hi9Y
+mv "Table Tennis Top 10 Impossible Shots and Rallies [Zz-orE6hi9Y].mp4" 206_cut.mp4
