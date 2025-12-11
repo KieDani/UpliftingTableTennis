@@ -9,6 +9,7 @@ First, ensure you have the required dependencies installed. You can install them
 pip install torch torchvision numpy opencv-python-headless einops tqdm matplotlib scipy scikit-learn omegaconf tomesd pandas tensorboard rich yapf addict
 ```
 Note: You can also use the standard `opencv-python` package.
+Note: You need Python version 3.9 or newer.
 
 ## 2. Setup and Data Loading
 We use torch.hub to easily download the example images provided in the repository and load them into memory. 
