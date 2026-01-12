@@ -178,7 +178,7 @@ You can choose an arbitrary folder on your system.
 #### Ball Detection
 To train the ball detection models, run the script ``balldetection/train.py``:
 ```bash
-python -m balldetection.train--gpu 0 --folder results --pretraining --model <model_name>
+python -m balldetection.train --gpu 0 --folder results --pretraining --model <model_name>
 ```
 Replace ``<model_name>`` with one of the following options: ``segformerpp_b0``, ``segformerpp_b2``, ``wasb``, ``vitpose``.
 The ``--pretraining`` argument indicates that the weight from the pretraining on the blurball dataset are used for initialization. 
