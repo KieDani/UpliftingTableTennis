@@ -40,6 +40,7 @@ class TableTennisDataset(torch.utils.data.Dataset):
                     dps = dps[:int(0.7 * len(dps))]
                 elif mode == 'val':
                     dps = dps[int(0.7 * len(dps)):int(0.8 * len(dps))]
+                    self.data_paths.pop(0)  # remove the first trajectory, because it is erroneous
                 elif mode == 'test':
                     dps = dps[int(0.8 * len(dps)):]
                 else:
