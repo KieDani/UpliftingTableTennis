@@ -4,7 +4,7 @@ We are happy to announce that our paper "Uplifting Table Tennis: A Robust, Real-
 
 [Paper Link](https://arxiv.org/abs/2511.20250) | [Project Page](https://kiedani.github.io/WACV2026/index.html)
 
-TODO: Add video link on Github
+https://github.com/user-attachments/assets/58717aed-dc5f-4193-b269-40102e0f81a2
 
 # Easy usage of our models
 In this section, we explain how to load our trained models via torch.hub.
